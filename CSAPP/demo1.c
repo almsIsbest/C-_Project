@@ -1,7 +1,6 @@
 //
 // Created by Betta on 2022/5/9.
 //
-
 #include <stdio.h>
 #include <string.h>
 
@@ -18,6 +17,7 @@ void show_int(int x);
 void show_float(float x);
 
 void show_pointer(void *x);
+void show_bytes(byte_pointer start, size_t len);
 
 int main() {
     float a[] = {1.0, 2.0, 3.0, 4.0, 5.0};
@@ -26,7 +26,9 @@ int main() {
 //    show_int(1);
 //    show_float(1.0);
 //    show_pointer('a');
-    test_show_bytes(12345);
+//    test_show_bytes(12345);
+    const char *s = "abcdef";
+    show_bytes((byte_pointer)s,strlen(s));
 //    char s[] = {""};
 //    char t[] = {"aaaaaaaaaaaaaaaaaaaa"};
 //    printf("strlonger 函数 长度 %d", strlonger(s, t));
