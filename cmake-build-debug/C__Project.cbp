@@ -27,8 +27,8 @@
 					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="second">
-				<Option output="D:/C++Project/cmake-build-debug/second.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="demo1">
+				<Option output="D:/C++Project/cmake-build-debug/demo1.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/C++Project/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -42,14 +42,14 @@
 					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 second"/>
+					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo1"/>
 					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="second/fast">
-				<Option output="D:/C++Project/cmake-build-debug/second.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="demo1/fast">
+				<Option output="D:/C++Project/cmake-build-debug/demo1.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/C++Project/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -63,7 +63,7 @@
 					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 second/fast"/>
+					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo1/fast"/>
 					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -111,8 +111,8 @@
 					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="first">
-				<Option output="D:/C++Project/cmake-build-debug/first.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="demo2">
+				<Option output="D:/C++Project/cmake-build-debug/demo2.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/C++Project/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -126,14 +126,14 @@
 					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 first"/>
+					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo2"/>
 					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="first/fast">
-				<Option output="D:/C++Project/cmake-build-debug/first.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="demo2/fast">
+				<Option output="D:/C++Project/cmake-build-debug/demo2.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/C++Project/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -147,49 +147,7 @@
 					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 first/fast"/>
-					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="demo">
-				<Option output="D:/C++Project/cmake-build-debug/demo.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/C++Project/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo"/>
-					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="demo/fast">
-				<Option output="D:/C++Project/cmake-build-debug/demo.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/C++Project/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo/fast"/>
+					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo2/fast"/>
 					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -206,17 +164,14 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/C++Project/CSAPP/demo1.c">
-			<Option target="demo"/>
+		<Unit filename="D:/C++Project/CSAPP/chapter_two/demo1.c">
+			<Option target="demo1"/>
 		</Unit>
-		<Unit filename="D:/C++Project/first.c">
-			<Option target="first"/>
+		<Unit filename="D:/C++Project/CSAPP/chapter_two/demo2.c">
+			<Option target="demo2"/>
 		</Unit>
 		<Unit filename="D:/C++Project/main.cpp">
 			<Option target="C__Project"/>
-		</Unit>
-		<Unit filename="D:/C++Project/second.cpp">
-			<Option target="second"/>
 		</Unit>
 		<Unit filename="D:/C++Project/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

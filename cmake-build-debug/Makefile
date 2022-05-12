@@ -130,17 +130,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named second
+# Target rules for targets named demo1
 
 # Build rule for target.
-second: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 second
-.PHONY : second
+demo1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 demo1
+.PHONY : demo1
 
 # fast build rule for target.
-second/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\second.dir\build.make CMakeFiles/second.dir/build
-.PHONY : second/fast
+demo1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo1.dir\build.make CMakeFiles/demo1.dir/build
+.PHONY : demo1/fast
 
 #=============================================================================
 # Target rules for targets named C__Project
@@ -156,84 +156,71 @@ C__Project/fast:
 .PHONY : C__Project/fast
 
 #=============================================================================
-# Target rules for targets named first
+# Target rules for targets named demo2
 
 # Build rule for target.
-first: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 first
-.PHONY : first
+demo2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 demo2
+.PHONY : demo2
 
 # fast build rule for target.
-first/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\first.dir\build.make CMakeFiles/first.dir/build
-.PHONY : first/fast
+demo2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo2.dir\build.make CMakeFiles/demo2.dir/build
+.PHONY : demo2/fast
 
-#=============================================================================
-# Target rules for targets named demo
+CSAPP/chapter_two/demo1.obj: CSAPP/chapter_two/demo1.c.obj
 
-# Build rule for target.
-demo: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 demo
-.PHONY : demo
-
-# fast build rule for target.
-demo/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo.dir\build.make CMakeFiles/demo.dir/build
-.PHONY : demo/fast
-
-CSAPP/demo1.obj: CSAPP/demo1.c.obj
-
-.PHONY : CSAPP/demo1.obj
+.PHONY : CSAPP/chapter_two/demo1.obj
 
 # target to build an object file
-CSAPP/demo1.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo.dir\build.make CMakeFiles/demo.dir/CSAPP/demo1.c.obj
-.PHONY : CSAPP/demo1.c.obj
+CSAPP/chapter_two/demo1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo1.dir\build.make CMakeFiles/demo1.dir/CSAPP/chapter_two/demo1.c.obj
+.PHONY : CSAPP/chapter_two/demo1.c.obj
 
-CSAPP/demo1.i: CSAPP/demo1.c.i
+CSAPP/chapter_two/demo1.i: CSAPP/chapter_two/demo1.c.i
 
-.PHONY : CSAPP/demo1.i
+.PHONY : CSAPP/chapter_two/demo1.i
 
 # target to preprocess a source file
-CSAPP/demo1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo.dir\build.make CMakeFiles/demo.dir/CSAPP/demo1.c.i
-.PHONY : CSAPP/demo1.c.i
+CSAPP/chapter_two/demo1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo1.dir\build.make CMakeFiles/demo1.dir/CSAPP/chapter_two/demo1.c.i
+.PHONY : CSAPP/chapter_two/demo1.c.i
 
-CSAPP/demo1.s: CSAPP/demo1.c.s
+CSAPP/chapter_two/demo1.s: CSAPP/chapter_two/demo1.c.s
 
-.PHONY : CSAPP/demo1.s
+.PHONY : CSAPP/chapter_two/demo1.s
 
 # target to generate assembly for a file
-CSAPP/demo1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo.dir\build.make CMakeFiles/demo.dir/CSAPP/demo1.c.s
-.PHONY : CSAPP/demo1.c.s
+CSAPP/chapter_two/demo1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo1.dir\build.make CMakeFiles/demo1.dir/CSAPP/chapter_two/demo1.c.s
+.PHONY : CSAPP/chapter_two/demo1.c.s
 
-first.obj: first.c.obj
+CSAPP/chapter_two/demo2.obj: CSAPP/chapter_two/demo2.c.obj
 
-.PHONY : first.obj
+.PHONY : CSAPP/chapter_two/demo2.obj
 
 # target to build an object file
-first.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\first.dir\build.make CMakeFiles/first.dir/first.c.obj
-.PHONY : first.c.obj
+CSAPP/chapter_two/demo2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo2.dir\build.make CMakeFiles/demo2.dir/CSAPP/chapter_two/demo2.c.obj
+.PHONY : CSAPP/chapter_two/demo2.c.obj
 
-first.i: first.c.i
+CSAPP/chapter_two/demo2.i: CSAPP/chapter_two/demo2.c.i
 
-.PHONY : first.i
+.PHONY : CSAPP/chapter_two/demo2.i
 
 # target to preprocess a source file
-first.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\first.dir\build.make CMakeFiles/first.dir/first.c.i
-.PHONY : first.c.i
+CSAPP/chapter_two/demo2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo2.dir\build.make CMakeFiles/demo2.dir/CSAPP/chapter_two/demo2.c.i
+.PHONY : CSAPP/chapter_two/demo2.c.i
 
-first.s: first.c.s
+CSAPP/chapter_two/demo2.s: CSAPP/chapter_two/demo2.c.s
 
-.PHONY : first.s
+.PHONY : CSAPP/chapter_two/demo2.s
 
 # target to generate assembly for a file
-first.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\first.dir\build.make CMakeFiles/first.dir/first.c.s
-.PHONY : first.c.s
+CSAPP/chapter_two/demo2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo2.dir\build.make CMakeFiles/demo2.dir/CSAPP/chapter_two/demo2.c.s
+.PHONY : CSAPP/chapter_two/demo2.c.s
 
 main.obj: main.cpp.obj
 
@@ -262,33 +249,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Project.dir\build.make CMakeFiles/C__Project.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-second.obj: second.cpp.obj
-
-.PHONY : second.obj
-
-# target to build an object file
-second.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\second.dir\build.make CMakeFiles/second.dir/second.cpp.obj
-.PHONY : second.cpp.obj
-
-second.i: second.cpp.i
-
-.PHONY : second.i
-
-# target to preprocess a source file
-second.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\second.dir\build.make CMakeFiles/second.dir/second.cpp.i
-.PHONY : second.cpp.i
-
-second.s: second.cpp.s
-
-.PHONY : second.s
-
-# target to generate assembly for a file
-second.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\second.dir\build.make CMakeFiles/second.dir/second.cpp.s
-.PHONY : second.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -298,21 +258,17 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... C__Project
-	@echo ... demo
-	@echo ... first
-	@echo ... second
-	@echo ... CSAPP/demo1.obj
-	@echo ... CSAPP/demo1.i
-	@echo ... CSAPP/demo1.s
-	@echo ... first.obj
-	@echo ... first.i
-	@echo ... first.s
+	@echo ... demo1
+	@echo ... demo2
+	@echo ... CSAPP/chapter_two/demo1.obj
+	@echo ... CSAPP/chapter_two/demo1.i
+	@echo ... CSAPP/chapter_two/demo1.s
+	@echo ... CSAPP/chapter_two/demo2.obj
+	@echo ... CSAPP/chapter_two/demo2.i
+	@echo ... CSAPP/chapter_two/demo2.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... second.obj
-	@echo ... second.i
-	@echo ... second.s
 .PHONY : help
 
 
