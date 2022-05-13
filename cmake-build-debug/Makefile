@@ -168,6 +168,46 @@ demo2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo2.dir\build.make CMakeFiles/demo2.dir/build
 .PHONY : demo2/fast
 
+#=============================================================================
+# Target rules for targets named chapter_demo1
+
+# Build rule for target.
+chapter_demo1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 chapter_demo1
+.PHONY : chapter_demo1
+
+# fast build rule for target.
+chapter_demo1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter_demo1.dir\build.make CMakeFiles/chapter_demo1.dir/build
+.PHONY : chapter_demo1/fast
+
+CSAPP/chapter_three/demo1.obj: CSAPP/chapter_three/demo1.c.obj
+
+.PHONY : CSAPP/chapter_three/demo1.obj
+
+# target to build an object file
+CSAPP/chapter_three/demo1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter_demo1.dir\build.make CMakeFiles/chapter_demo1.dir/CSAPP/chapter_three/demo1.c.obj
+.PHONY : CSAPP/chapter_three/demo1.c.obj
+
+CSAPP/chapter_three/demo1.i: CSAPP/chapter_three/demo1.c.i
+
+.PHONY : CSAPP/chapter_three/demo1.i
+
+# target to preprocess a source file
+CSAPP/chapter_three/demo1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter_demo1.dir\build.make CMakeFiles/chapter_demo1.dir/CSAPP/chapter_three/demo1.c.i
+.PHONY : CSAPP/chapter_three/demo1.c.i
+
+CSAPP/chapter_three/demo1.s: CSAPP/chapter_three/demo1.c.s
+
+.PHONY : CSAPP/chapter_three/demo1.s
+
+# target to generate assembly for a file
+CSAPP/chapter_three/demo1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter_demo1.dir\build.make CMakeFiles/chapter_demo1.dir/CSAPP/chapter_three/demo1.c.s
+.PHONY : CSAPP/chapter_three/demo1.c.s
+
 CSAPP/chapter_two/demo1.obj: CSAPP/chapter_two/demo1.c.obj
 
 .PHONY : CSAPP/chapter_two/demo1.obj
@@ -258,8 +298,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... C__Project
+	@echo ... chapter_demo1
 	@echo ... demo1
 	@echo ... demo2
+	@echo ... CSAPP/chapter_three/demo1.obj
+	@echo ... CSAPP/chapter_three/demo1.i
+	@echo ... CSAPP/chapter_three/demo1.s
 	@echo ... CSAPP/chapter_two/demo1.obj
 	@echo ... CSAPP/chapter_two/demo1.i
 	@echo ... CSAPP/chapter_two/demo1.s

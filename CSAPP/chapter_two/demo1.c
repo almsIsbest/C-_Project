@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <string.h>
 
-typedef unsigned char* byte_pointer;
+typedef unsigned char *byte_pointer;
 
 float sum_length(float a[], unsigned length);
 
@@ -17,17 +17,19 @@ void show_int(int x);
 void show_float(float x);
 
 void show_pointer(void *x);
+
 void show_bytes(byte_pointer start, size_t len);
 
-void inplace_swap(int *x , int *y  );
+void inplace_swap(int *x, int *y);
 
-void reserve_array(int a[] , int cnt);
+void reserve_array(int a[], int cnt);
+
 
 
 int main() {
-    float a[] = {1.0, 2.0, 3.0, 4.0, 5.0};
-
-    sum_length(a, 0);
+//    float a[] = {1.0, 2.0, 3.0, 4.0, 5.0};
+//
+//    sum_length(a, 0);
 //    show_int(1);
 //    show_float(1.0);
 //    show_pointer('a');
@@ -38,9 +40,9 @@ int main() {
 
 
 
-//    char s[] = {""};
-//    char t[] = {"aaaaaaaaaaaaaaaaaaaa"};
-//    printf("strlonger 函数 长度 %d", strlonger(s, t));
+    char s[] = {""};
+    char t[] = {"aaaaaaaaaaaaaaaaaaaa"};
+    printf("strlonger 函数 长度 = %d", strlonger(s, t));
 
 //    int h= 1 ,b=2;
 //
@@ -77,12 +79,16 @@ int main() {
 //    printf("最低有效字节设置成全1，%#x\n ",x|0x000000FF);
 
 
-    int lval = 0xFEDCBA98 << 32;
-    int alval =  0xFEDCBA98 >> 4 ;
-    unsigned ulval = 0xFEDCBA98u >> 40;
-    printf("lval %x\n",lval);
-    printf("lval %x\n",alval);
-    printf("lval %x\n",ulval);
+//    int lval = 0xFEDCBA98 << 32;
+//    int alval =  0xFEDCBA98 >> 4 ;
+//    unsigned ulval = 0xFEDCBA98u >> 40;
+//    printf("lval %x\n",lval);
+//    printf("lval %x\n",alval);
+//    printf("lval %x\n",ulval);
+
+
+
+
     return 0;
 }
 
@@ -98,8 +104,8 @@ float sum_length(float a[], unsigned length) {
 }
 
 int strlonger(char *s, char *t) {
-    printf("strlen(s) %ld\n", strlen(s));
-    printf("strlen(t) %ld\n", strlen(t));
+    printf("strlen(s) %u\n", strlen(s));
+    printf("strlen(t) %u\n", strlen(t));
     int result = strlen(s) - strlen(t) > 0;
     return strlen(s) - strlen(t) > 0;
 }
@@ -142,18 +148,18 @@ void test_show_bytes(int val) {
 /**
  * 数组两头对调
  */
-void reserve_array(int a[] , int cnt){
+void reserve_array(int a[], int cnt) {
     int first = 0;
-    int last = cnt-1;
-    for(;first<last;first++,last--){
-        inplace_swap(&a[first],&a[last]);
+    int last = cnt - 1;
+    for (; first < last; first++, last--) {
+        inplace_swap(&a[first], &a[last]);
     }
 }
 
 /**不创建空间来交换指针保存的值的地址来改变两个变量**/
-void inplace_swap(int *x , int *y  ){
-    *y = *x^*y;
-    *x = *x^*y;
-    *y = *x^*y;
+void inplace_swap(int *x, int *y) {
+    *y = *x ^ *y;
+    *x = *x ^ *y;
+    *y = *x ^ *y;
 }
 

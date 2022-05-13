@@ -7,12 +7,17 @@ typedef unsigned char *byte_pointer;
 
 void show_bytes(byte_pointer start, size_t len);
 
-void printf_bin(short num);
+void printf_bin(char num);
 
 int fun1(unsigned word);
 
 int fun2(unsigned word);
 
+int uadd_ok(unsigned x ,unsigned y);
+
+int tadd_ok(int x ,int y);
+
+int book_div16(int x);
 int main() {
 //    short x = 12345;
 //    short mx = -x;
@@ -51,15 +56,25 @@ int main() {
 //    printf("ux = %u \n", ux);
 //    show_bytes((byte_pointer) &ux, sizeof(unsigned));
 
-    printf("fun1 = %x\n", fun1(0x00000076));
-    printf("fun1 = %x\n", fun1(0x87654321));
-    printf("fun1 = %x\n", fun1(0x000000c9));
-    printf("fun1 = %x\n", fun1(0xedcba987));
+//    printf("fun1 = %x\n", fun1(0x00000076));
+//    printf("fun1 = %x\n", fun1(0x87654321));
+//    printf("fun1 = %x\n", fun1(0x000000c9));
+//    printf("fun1 = %x\n", fun1(0xedcba987));
+//
+//    printf("fun2 = %x\n", fun2(0x00000076));
+//    printf("fun2 = %x\n", fun2(0x87654321));
+//    printf("fun2 = %x\n", fun2(0x000000c9));
+//    printf("fun2 = %x\n", fun2(0xedcba987));
 
-    printf("fun2 = %x\n", fun2(0x00000076));
-    printf("fun2 = %x\n", fun2(0x87654321));
-    printf("fun2 = %x\n", fun2(0x000000c9));
-    printf("fun2 = %x\n", fun2(0xedcba987));
+//    /**练习题 2.27**/
+//    printf("result = %d ",uadd_ok(4294967295,0));
+
+//    char y = -128;
+//    printf_bin(y);
+
+    printf_bin(book_div16(-12340));
+
+    return 0;
 
 }
 
@@ -72,10 +87,10 @@ void show_bytes(byte_pointer start, size_t len) {
 }
 
 /** 二进制格式输出**/
-void printf_bin(short num) {
+void printf_bin(char num) {
     int i, j, k;
-    byte_pointer p = (byte_pointer) &num + 1;
-    for (i = 0; i < 2; i++) {
+    byte_pointer p = (byte_pointer) &num ;
+    for (i = 0; i < 1; i++) {
         j = *(p - i);//取每个字节的首地址，从高位字节到低位字节，即p p-1 p-2 p-3地址处
         for (int k = 7; k >= 0; k--) {//处理每个字节的8个位，注意字节内部的二进制数是按照人的习惯存储！
             if (j & (1 << k))//1左移k位，与单前的字节内容j进行或运算，如k=7时，00000000&10000000=0 ->该字节的最高位为0
@@ -94,4 +109,33 @@ int fun1(unsigned word) {
 
 int fun2(unsigned word) {
     return (int) (word << 24) >> 24;
+}
+
+/**如果参数x和y相加不会产生溢出，这个函数就返回1**/
+int uadd_ok(unsigned x ,unsigned y){
+    unsigned s = x + y;
+    return s> x;
+}
+
+/**练习题 2.30 如果参数x和y相加不会产生溢出，这个函数就返回 1**/
+int tadd_ok(int x ,int y){
+    int s = x + y ;
+    if(s<=0){
+        return x<=0 || y<=0;
+    } else{
+        return x>0 || y> 0;
+    }
+}
+
+/**练习题 2.32**/
+int tsub_ok(int x , int y){
+    int sub = x -y ;
+    return (x>=y)? (sub>=0) : (sub<0);
+}
+
+/**练习题 2.42**/
+int book_div16(int x){
+    int bias = (x>>31)& 0xf;
+    printf_bin(x+bias);
+    return (x+bias) >> 4;
 }
