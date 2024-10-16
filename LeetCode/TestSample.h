@@ -13,6 +13,10 @@
 
 void test1();
 
+void test135();
+
 void test455();
+
+void test435();
 
 #endif //C__PROJECT_TESTSAMPLE_H

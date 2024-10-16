@@ -4,7 +4,7 @@
 #include <iostream>
 #include "TestSample.h"
 #include "AssignCookies_Easy.h"
-
+#include "Candy.h"
 
 void test1(){
     std::vector<int> nums = {2, 7, 11, 15};
@@ -13,6 +13,12 @@ void test1(){
         std::cout << i << std::endl;
     }
 }
+
+void test135(){
+    std::vector<int> r{1,0,2};
+    std::cout << Candy::candy(r);
+}
+
 
 void test455(){
 
