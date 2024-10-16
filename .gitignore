@@ -1,0 +1,25 @@
+# 忽略 C++ 编译生成的文件
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+
+# 忽略编译器生成的中间文件和调试文件
+*.a
+*.lib
+*.pdb
+
+# 忽略构建工具生成的目录
+/build/
+/bin/
+/Debug/
+/Release/
+
+# 忽略 IDE 配置文件（例如 Visual Studio、CLion 等）
+*.user
+*.vcxproj*
+*.suo
+.idea/
+*.code-workspace

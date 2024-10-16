@@ -44,19 +44,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Download\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Download\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\C++Project
+CMAKE_SOURCE_DIR = E:\myself\C-_Project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\C++Project\cmake-build-debug
+CMAKE_BINARY_DIR = E:\myself\C-_Project\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -66,6 +66,7 @@ all: CMakeFiles/C__Project.dir/all
 all: CMakeFiles/demo1.dir/all
 all: CMakeFiles/demo2.dir/all
 all: CMakeFiles/chapter_demo1.dir/all
+all: CMakeFiles/LeetCode_Main.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -77,6 +78,7 @@ clean: CMakeFiles/C__Project.dir/clean
 clean: CMakeFiles/demo1.dir/clean
 clean: CMakeFiles/demo2.dir/clean
 clean: CMakeFiles/chapter_demo1.dir/clean
+clean: CMakeFiles/LeetCode_Main.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -86,14 +88,14 @@ clean: CMakeFiles/chapter_demo1.dir/clean
 CMakeFiles/C__Project.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Project.dir\build.make CMakeFiles/C__Project.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Project.dir\build.make CMakeFiles/C__Project.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\C++Project\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target C__Project"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\myself\C-_Project\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target C__Project"
 .PHONY : CMakeFiles/C__Project.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/C__Project.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\C++Project\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\myself\C-_Project\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/C__Project.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\C++Project\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\myself\C-_Project\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/C__Project.dir/rule
 
 # Convenience name for target.
@@ -112,14 +114,14 @@ CMakeFiles/C__Project.dir/clean:
 CMakeFiles/demo1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo1.dir\build.make CMakeFiles/demo1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo1.dir\build.make CMakeFiles/demo1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\C++Project\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target demo1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\myself\C-_Project\cmake-build-debug\CMakeFiles --progress-num=14,15 "Built target demo1"
 .PHONY : CMakeFiles/demo1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/demo1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\C++Project\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\myself\C-_Project\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/demo1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\C++Project\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\myself\C-_Project\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/demo1.dir/rule
 
 # Convenience name for target.
@@ -138,14 +140,14 @@ CMakeFiles/demo1.dir/clean:
 CMakeFiles/demo2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo2.dir\build.make CMakeFiles/demo2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo2.dir\build.make CMakeFiles/demo2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\C++Project\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target demo2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\myself\C-_Project\cmake-build-debug\CMakeFiles --progress-num=16,17 "Built target demo2"
 .PHONY : CMakeFiles/demo2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/demo2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\C++Project\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\myself\C-_Project\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/demo2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\C++Project\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\myself\C-_Project\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/demo2.dir/rule
 
 # Convenience name for target.
@@ -164,14 +166,14 @@ CMakeFiles/demo2.dir/clean:
 CMakeFiles/chapter_demo1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter_demo1.dir\build.make CMakeFiles/chapter_demo1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter_demo1.dir\build.make CMakeFiles/chapter_demo1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\C++Project\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target chapter_demo1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\myself\C-_Project\cmake-build-debug\CMakeFiles --progress-num=8,9,10,11,12,13 "Built target chapter_demo1"
 .PHONY : CMakeFiles/chapter_demo1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/chapter_demo1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\C++Project\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\myself\C-_Project\cmake-build-debug\CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/chapter_demo1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\C++Project\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\myself\C-_Project\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/chapter_demo1.dir/rule
 
 # Convenience name for target.
@@ -182,6 +184,32 @@ chapter_demo1: CMakeFiles/chapter_demo1.dir/rule
 CMakeFiles/chapter_demo1.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter_demo1.dir\build.make CMakeFiles/chapter_demo1.dir/clean
 .PHONY : CMakeFiles/chapter_demo1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/LeetCode_Main.dir
+
+# All Build rule for target.
+CMakeFiles/LeetCode_Main.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LeetCode_Main.dir\build.make CMakeFiles/LeetCode_Main.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LeetCode_Main.dir\build.make CMakeFiles/LeetCode_Main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\myself\C-_Project\cmake-build-debug\CMakeFiles --progress-num=3,4,5,6,7 "Built target LeetCode_Main"
+.PHONY : CMakeFiles/LeetCode_Main.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/LeetCode_Main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\myself\C-_Project\cmake-build-debug\CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/LeetCode_Main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\myself\C-_Project\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/LeetCode_Main.dir/rule
+
+# Convenience name for target.
+LeetCode_Main: CMakeFiles/LeetCode_Main.dir/rule
+.PHONY : LeetCode_Main
+
+# clean rule for target.
+CMakeFiles/LeetCode_Main.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LeetCode_Main.dir\build.make CMakeFiles/LeetCode_Main.dir/clean
+.PHONY : CMakeFiles/LeetCode_Main.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Download\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Download\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\C++Project
+CMAKE_SOURCE_DIR = E:\myself\C-_Project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\C++Project\cmake-build-debug
+CMAKE_BINARY_DIR = E:\myself\C-_Project\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = D:\C++Project\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\Download\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\Download\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\C++Project\cmake-build-debug\CMakeFiles D:\C++Project\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\myself\C-_Project\cmake-build-debug\CMakeFiles E:\myself\C-_Project\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\C++Project\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\myself\C-_Project\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -167,29 +167,138 @@ chapter_demo1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter_demo1.dir\build.make CMakeFiles/chapter_demo1.dir/build
 .PHONY : chapter_demo1/fast
 
-CSAPP/chapter_three/demo1.obj: CSAPP/chapter_three/demo1.c.obj
+#=============================================================================
+# Target rules for targets named LeetCode_Main
+
+# Build rule for target.
+LeetCode_Main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LeetCode_Main
+.PHONY : LeetCode_Main
+
+# fast build rule for target.
+LeetCode_Main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LeetCode_Main.dir\build.make CMakeFiles/LeetCode_Main.dir/build
+.PHONY : LeetCode_Main/fast
+
+CSAPP/chapter_three/Best.obj: CSAPP/chapter_three/Best.cpp.obj
+.PHONY : CSAPP/chapter_three/Best.obj
+
+# target to build an object file
+CSAPP/chapter_three/Best.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter_demo1.dir\build.make CMakeFiles/chapter_demo1.dir/CSAPP/chapter_three/Best.cpp.obj
+.PHONY : CSAPP/chapter_three/Best.cpp.obj
+
+CSAPP/chapter_three/Best.i: CSAPP/chapter_three/Best.cpp.i
+.PHONY : CSAPP/chapter_three/Best.i
+
+# target to preprocess a source file
+CSAPP/chapter_three/Best.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter_demo1.dir\build.make CMakeFiles/chapter_demo1.dir/CSAPP/chapter_three/Best.cpp.i
+.PHONY : CSAPP/chapter_three/Best.cpp.i
+
+CSAPP/chapter_three/Best.s: CSAPP/chapter_three/Best.cpp.s
+.PHONY : CSAPP/chapter_three/Best.s
+
+# target to generate assembly for a file
+CSAPP/chapter_three/Best.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter_demo1.dir\build.make CMakeFiles/chapter_demo1.dir/CSAPP/chapter_three/Best.cpp.s
+.PHONY : CSAPP/chapter_three/Best.cpp.s
+
+CSAPP/chapter_three/Log.obj: CSAPP/chapter_three/Log.cpp.obj
+.PHONY : CSAPP/chapter_three/Log.obj
+
+# target to build an object file
+CSAPP/chapter_three/Log.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter_demo1.dir\build.make CMakeFiles/chapter_demo1.dir/CSAPP/chapter_three/Log.cpp.obj
+.PHONY : CSAPP/chapter_three/Log.cpp.obj
+
+CSAPP/chapter_three/Log.i: CSAPP/chapter_three/Log.cpp.i
+.PHONY : CSAPP/chapter_three/Log.i
+
+# target to preprocess a source file
+CSAPP/chapter_three/Log.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter_demo1.dir\build.make CMakeFiles/chapter_demo1.dir/CSAPP/chapter_three/Log.cpp.i
+.PHONY : CSAPP/chapter_three/Log.cpp.i
+
+CSAPP/chapter_three/Log.s: CSAPP/chapter_three/Log.cpp.s
+.PHONY : CSAPP/chapter_three/Log.s
+
+# target to generate assembly for a file
+CSAPP/chapter_three/Log.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter_demo1.dir\build.make CMakeFiles/chapter_demo1.dir/CSAPP/chapter_three/Log.cpp.s
+.PHONY : CSAPP/chapter_three/Log.cpp.s
+
+CSAPP/chapter_three/Person.obj: CSAPP/chapter_three/Person.cpp.obj
+.PHONY : CSAPP/chapter_three/Person.obj
+
+# target to build an object file
+CSAPP/chapter_three/Person.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter_demo1.dir\build.make CMakeFiles/chapter_demo1.dir/CSAPP/chapter_three/Person.cpp.obj
+.PHONY : CSAPP/chapter_three/Person.cpp.obj
+
+CSAPP/chapter_three/Person.i: CSAPP/chapter_three/Person.cpp.i
+.PHONY : CSAPP/chapter_three/Person.i
+
+# target to preprocess a source file
+CSAPP/chapter_three/Person.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter_demo1.dir\build.make CMakeFiles/chapter_demo1.dir/CSAPP/chapter_three/Person.cpp.i
+.PHONY : CSAPP/chapter_three/Person.cpp.i
+
+CSAPP/chapter_three/Person.s: CSAPP/chapter_three/Person.cpp.s
+.PHONY : CSAPP/chapter_three/Person.s
+
+# target to generate assembly for a file
+CSAPP/chapter_three/Person.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter_demo1.dir\build.make CMakeFiles/chapter_demo1.dir/CSAPP/chapter_three/Person.cpp.s
+.PHONY : CSAPP/chapter_three/Person.cpp.s
+
+CSAPP/chapter_three/Student.obj: CSAPP/chapter_three/Student.cpp.obj
+.PHONY : CSAPP/chapter_three/Student.obj
+
+# target to build an object file
+CSAPP/chapter_three/Student.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter_demo1.dir\build.make CMakeFiles/chapter_demo1.dir/CSAPP/chapter_three/Student.cpp.obj
+.PHONY : CSAPP/chapter_three/Student.cpp.obj
+
+CSAPP/chapter_three/Student.i: CSAPP/chapter_three/Student.cpp.i
+.PHONY : CSAPP/chapter_three/Student.i
+
+# target to preprocess a source file
+CSAPP/chapter_three/Student.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter_demo1.dir\build.make CMakeFiles/chapter_demo1.dir/CSAPP/chapter_three/Student.cpp.i
+.PHONY : CSAPP/chapter_three/Student.cpp.i
+
+CSAPP/chapter_three/Student.s: CSAPP/chapter_three/Student.cpp.s
+.PHONY : CSAPP/chapter_three/Student.s
+
+# target to generate assembly for a file
+CSAPP/chapter_three/Student.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter_demo1.dir\build.make CMakeFiles/chapter_demo1.dir/CSAPP/chapter_three/Student.cpp.s
+.PHONY : CSAPP/chapter_three/Student.cpp.s
+
+CSAPP/chapter_three/demo1.obj: CSAPP/chapter_three/demo1.cpp.obj
 .PHONY : CSAPP/chapter_three/demo1.obj
 
 # target to build an object file
-CSAPP/chapter_three/demo1.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter_demo1.dir\build.make CMakeFiles/chapter_demo1.dir/CSAPP/chapter_three/demo1.c.obj
-.PHONY : CSAPP/chapter_three/demo1.c.obj
+CSAPP/chapter_three/demo1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter_demo1.dir\build.make CMakeFiles/chapter_demo1.dir/CSAPP/chapter_three/demo1.cpp.obj
+.PHONY : CSAPP/chapter_three/demo1.cpp.obj
 
-CSAPP/chapter_three/demo1.i: CSAPP/chapter_three/demo1.c.i
+CSAPP/chapter_three/demo1.i: CSAPP/chapter_three/demo1.cpp.i
 .PHONY : CSAPP/chapter_three/demo1.i
 
 # target to preprocess a source file
-CSAPP/chapter_three/demo1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter_demo1.dir\build.make CMakeFiles/chapter_demo1.dir/CSAPP/chapter_three/demo1.c.i
-.PHONY : CSAPP/chapter_three/demo1.c.i
+CSAPP/chapter_three/demo1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter_demo1.dir\build.make CMakeFiles/chapter_demo1.dir/CSAPP/chapter_three/demo1.cpp.i
+.PHONY : CSAPP/chapter_three/demo1.cpp.i
 
-CSAPP/chapter_three/demo1.s: CSAPP/chapter_three/demo1.c.s
+CSAPP/chapter_three/demo1.s: CSAPP/chapter_three/demo1.cpp.s
 .PHONY : CSAPP/chapter_three/demo1.s
 
 # target to generate assembly for a file
-CSAPP/chapter_three/demo1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter_demo1.dir\build.make CMakeFiles/chapter_demo1.dir/CSAPP/chapter_three/demo1.c.s
-.PHONY : CSAPP/chapter_three/demo1.c.s
+CSAPP/chapter_three/demo1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter_demo1.dir\build.make CMakeFiles/chapter_demo1.dir/CSAPP/chapter_three/demo1.cpp.s
+.PHONY : CSAPP/chapter_three/demo1.cpp.s
 
 CSAPP/chapter_two/demo1.obj: CSAPP/chapter_two/demo1.c.obj
 .PHONY : CSAPP/chapter_two/demo1.obj
@@ -239,6 +348,102 @@ CSAPP/chapter_two/demo2.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo2.dir\build.make CMakeFiles/demo2.dir/CSAPP/chapter_two/demo2.c.s
 .PHONY : CSAPP/chapter_two/demo2.c.s
 
+LeetCode/AssignCookies_Easy.obj: LeetCode/AssignCookies_Easy.cpp.obj
+.PHONY : LeetCode/AssignCookies_Easy.obj
+
+# target to build an object file
+LeetCode/AssignCookies_Easy.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LeetCode_Main.dir\build.make CMakeFiles/LeetCode_Main.dir/LeetCode/AssignCookies_Easy.cpp.obj
+.PHONY : LeetCode/AssignCookies_Easy.cpp.obj
+
+LeetCode/AssignCookies_Easy.i: LeetCode/AssignCookies_Easy.cpp.i
+.PHONY : LeetCode/AssignCookies_Easy.i
+
+# target to preprocess a source file
+LeetCode/AssignCookies_Easy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LeetCode_Main.dir\build.make CMakeFiles/LeetCode_Main.dir/LeetCode/AssignCookies_Easy.cpp.i
+.PHONY : LeetCode/AssignCookies_Easy.cpp.i
+
+LeetCode/AssignCookies_Easy.s: LeetCode/AssignCookies_Easy.cpp.s
+.PHONY : LeetCode/AssignCookies_Easy.s
+
+# target to generate assembly for a file
+LeetCode/AssignCookies_Easy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LeetCode_Main.dir\build.make CMakeFiles/LeetCode_Main.dir/LeetCode/AssignCookies_Easy.cpp.s
+.PHONY : LeetCode/AssignCookies_Easy.cpp.s
+
+LeetCode/MainPro.obj: LeetCode/MainPro.cpp.obj
+.PHONY : LeetCode/MainPro.obj
+
+# target to build an object file
+LeetCode/MainPro.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LeetCode_Main.dir\build.make CMakeFiles/LeetCode_Main.dir/LeetCode/MainPro.cpp.obj
+.PHONY : LeetCode/MainPro.cpp.obj
+
+LeetCode/MainPro.i: LeetCode/MainPro.cpp.i
+.PHONY : LeetCode/MainPro.i
+
+# target to preprocess a source file
+LeetCode/MainPro.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LeetCode_Main.dir\build.make CMakeFiles/LeetCode_Main.dir/LeetCode/MainPro.cpp.i
+.PHONY : LeetCode/MainPro.cpp.i
+
+LeetCode/MainPro.s: LeetCode/MainPro.cpp.s
+.PHONY : LeetCode/MainPro.s
+
+# target to generate assembly for a file
+LeetCode/MainPro.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LeetCode_Main.dir\build.make CMakeFiles/LeetCode_Main.dir/LeetCode/MainPro.cpp.s
+.PHONY : LeetCode/MainPro.cpp.s
+
+LeetCode/TestSample.obj: LeetCode/TestSample.cpp.obj
+.PHONY : LeetCode/TestSample.obj
+
+# target to build an object file
+LeetCode/TestSample.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LeetCode_Main.dir\build.make CMakeFiles/LeetCode_Main.dir/LeetCode/TestSample.cpp.obj
+.PHONY : LeetCode/TestSample.cpp.obj
+
+LeetCode/TestSample.i: LeetCode/TestSample.cpp.i
+.PHONY : LeetCode/TestSample.i
+
+# target to preprocess a source file
+LeetCode/TestSample.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LeetCode_Main.dir\build.make CMakeFiles/LeetCode_Main.dir/LeetCode/TestSample.cpp.i
+.PHONY : LeetCode/TestSample.cpp.i
+
+LeetCode/TestSample.s: LeetCode/TestSample.cpp.s
+.PHONY : LeetCode/TestSample.s
+
+# target to generate assembly for a file
+LeetCode/TestSample.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LeetCode_Main.dir\build.make CMakeFiles/LeetCode_Main.dir/LeetCode/TestSample.cpp.s
+.PHONY : LeetCode/TestSample.cpp.s
+
+LeetCode/TwoSum.obj: LeetCode/TwoSum.cpp.obj
+.PHONY : LeetCode/TwoSum.obj
+
+# target to build an object file
+LeetCode/TwoSum.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LeetCode_Main.dir\build.make CMakeFiles/LeetCode_Main.dir/LeetCode/TwoSum.cpp.obj
+.PHONY : LeetCode/TwoSum.cpp.obj
+
+LeetCode/TwoSum.i: LeetCode/TwoSum.cpp.i
+.PHONY : LeetCode/TwoSum.i
+
+# target to preprocess a source file
+LeetCode/TwoSum.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LeetCode_Main.dir\build.make CMakeFiles/LeetCode_Main.dir/LeetCode/TwoSum.cpp.i
+.PHONY : LeetCode/TwoSum.cpp.i
+
+LeetCode/TwoSum.s: LeetCode/TwoSum.cpp.s
+.PHONY : LeetCode/TwoSum.s
+
+# target to generate assembly for a file
+LeetCode/TwoSum.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LeetCode_Main.dir\build.make CMakeFiles/LeetCode_Main.dir/LeetCode/TwoSum.cpp.s
+.PHONY : LeetCode/TwoSum.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -272,9 +477,22 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... C__Project
+	@echo ... LeetCode_Main
 	@echo ... chapter_demo1
 	@echo ... demo1
 	@echo ... demo2
+	@echo ... CSAPP/chapter_three/Best.obj
+	@echo ... CSAPP/chapter_three/Best.i
+	@echo ... CSAPP/chapter_three/Best.s
+	@echo ... CSAPP/chapter_three/Log.obj
+	@echo ... CSAPP/chapter_three/Log.i
+	@echo ... CSAPP/chapter_three/Log.s
+	@echo ... CSAPP/chapter_three/Person.obj
+	@echo ... CSAPP/chapter_three/Person.i
+	@echo ... CSAPP/chapter_three/Person.s
+	@echo ... CSAPP/chapter_three/Student.obj
+	@echo ... CSAPP/chapter_three/Student.i
+	@echo ... CSAPP/chapter_three/Student.s
 	@echo ... CSAPP/chapter_three/demo1.obj
 	@echo ... CSAPP/chapter_three/demo1.i
 	@echo ... CSAPP/chapter_three/demo1.s
@@ -284,6 +502,18 @@ help:
 	@echo ... CSAPP/chapter_two/demo2.obj
 	@echo ... CSAPP/chapter_two/demo2.i
 	@echo ... CSAPP/chapter_two/demo2.s
+	@echo ... LeetCode/AssignCookies_Easy.obj
+	@echo ... LeetCode/AssignCookies_Easy.i
+	@echo ... LeetCode/AssignCookies_Easy.s
+	@echo ... LeetCode/MainPro.obj
+	@echo ... LeetCode/MainPro.i
+	@echo ... LeetCode/MainPro.s
+	@echo ... LeetCode/TestSample.obj
+	@echo ... LeetCode/TestSample.i
+	@echo ... LeetCode/TestSample.s
+	@echo ... LeetCode/TwoSum.obj
+	@echo ... LeetCode/TwoSum.i
+	@echo ... LeetCode/TwoSum.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

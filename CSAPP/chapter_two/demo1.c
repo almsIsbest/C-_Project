@@ -4,6 +4,9 @@
 #include <stdio.h>
 #include <string.h>
 
+#define STR(s)     #s
+#define CONS(a,b)  a##b
+
 typedef unsigned char *byte_pointer;
 
 float sum_length(float a[], unsigned length);
@@ -40,9 +43,9 @@ int main() {
 
 
 
-    char s[] = {""};
-    char t[] = {"aaaaaaaaaaaaaaaaaaaa"};
-    printf("strlonger 函数 长度 = %d", strlonger(s, t));
+//    char s[] = {""};
+//    char t[] = {"aaaaaaaaaaaaaaaaaaaa"};
+//    printf("strlonger 函数 长度 = %d", strlonger(s, t));
 
 //    int h= 1 ,b=2;
 //
@@ -85,6 +88,14 @@ int main() {
 //    printf("lval %x\n",lval);
 //    printf("lval %x\n",alval);
 //    printf("lval %x\n",ulval);
+
+
+/* 输出字符串vck */
+    printf("%s\n" ,STR(vck));
+
+    /* 2e3 输出:2000 */
+    printf("%d\n", CONS(2,3));
+    return 0;
 
 
 

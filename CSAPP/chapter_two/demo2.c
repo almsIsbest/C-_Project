@@ -18,6 +18,23 @@ int uadd_ok(unsigned x ,unsigned y);
 int tadd_ok(int x ,int y);
 
 int book_div16(int x);
+
+#define a_write 4
+
+#define _syscal(type, name) \
+type name()                   \
+{ printf("hello" );         \
+  printf("%d",a_##name)   ;   \
+}
+
+
+#define set_sys_gate(n , addr) \
+_set_gate(n, addr);
+
+#define _set_gate(n , addr) \
+asm("nop")
+_syscal(void , write );
+
 int main() {
 //    short x = 12345;
 //    short mx = -x;
@@ -72,8 +89,18 @@ int main() {
 //    char y = -128;
 //    printf_bin(y);
 
-    printf_bin(book_div16(-12340));
+//    printf_bin(book_div16(-12340));
 
+
+    int a[5] = {1,2,3,4,5};
+
+    int (*p)[5]=& a;
+
+    for(int i = 0; i < 5; ++i){
+        printf("%d\n",(*p)[i]);
+    }
+
+    write();
     return 0;
 
 }

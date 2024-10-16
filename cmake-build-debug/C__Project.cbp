@@ -8,225 +8,314 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/C++Project/cmake-build-debug"/>
+				<Option working_dir="E:/myself/C-_Project/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="C__Project">
-				<Option output="D:/C++Project/cmake-build-debug/C__Project.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/C++Project/cmake-build-debug"/>
+				<Option output="E:/myself/C-_Project/cmake-build-debug/C__Project.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/myself/C-_Project/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 C__Project"/>
-					<CompileFile command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 C__Project"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="C__Project/fast">
-				<Option output="D:/C++Project/cmake-build-debug/C__Project.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/C++Project/cmake-build-debug"/>
+				<Option output="E:/myself/C-_Project/cmake-build-debug/C__Project.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/myself/C-_Project/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 C__Project/fast"/>
-					<CompileFile command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 C__Project/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="demo1">
-				<Option output="D:/C++Project/cmake-build-debug/demo1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/C++Project/cmake-build-debug"/>
+				<Option output="E:/myself/C-_Project/cmake-build-debug/demo1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/myself/C-_Project/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo1"/>
-					<CompileFile command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo1"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="demo1/fast">
-				<Option output="D:/C++Project/cmake-build-debug/demo1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/C++Project/cmake-build-debug"/>
+				<Option output="E:/myself/C-_Project/cmake-build-debug/demo1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/myself/C-_Project/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo1/fast"/>
-					<CompileFile command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo1/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="demo2">
-				<Option output="D:/C++Project/cmake-build-debug/demo2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/C++Project/cmake-build-debug"/>
+				<Option output="E:/myself/C-_Project/cmake-build-debug/demo2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/myself/C-_Project/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo2"/>
-					<CompileFile command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo2"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="demo2/fast">
-				<Option output="D:/C++Project/cmake-build-debug/demo2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/C++Project/cmake-build-debug"/>
+				<Option output="E:/myself/C-_Project/cmake-build-debug/demo2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/myself/C-_Project/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo2/fast"/>
-					<CompileFile command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo2/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="chapter_demo1">
-				<Option output="D:/C++Project/cmake-build-debug/chapter_demo1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/C++Project/cmake-build-debug"/>
+				<Option output="E:/myself/C-_Project/cmake-build-debug/chapter_demo1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/myself/C-_Project/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 chapter_demo1"/>
-					<CompileFile command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 chapter_demo1"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="chapter_demo1/fast">
-				<Option output="D:/C++Project/cmake-build-debug/chapter_demo1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/C++Project/cmake-build-debug"/>
+				<Option output="E:/myself/C-_Project/cmake-build-debug/chapter_demo1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/myself/C-_Project/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="D:/Download/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 chapter_demo1/fast"/>
-					<CompileFile command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 chapter_demo1/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LeetCode_Main">
+				<Option output="E:/myself/C-_Project/cmake-build-debug/LeetCode_Main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/myself/C-_Project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 LeetCode_Main"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LeetCode_Main/fast">
+				<Option output="E:/myself/C-_Project/cmake-build-debug/LeetCode_Main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/myself/C-_Project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 LeetCode_Main/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/C++Project/cmake-build-debug"/>
+				<Option working_dir="E:/myself/C-_Project/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/C++Project/cmake-build-debug"/>
+				<Option working_dir="E:/myself/C-_Project/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Download/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/C++Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/myself/C-_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/C++Project/CSAPP/chapter_three/demo1.c">
+		<Unit filename="E:/myself/C-_Project/CSAPP/chapter_three/Best.cpp">
 			<Option target="chapter_demo1"/>
 		</Unit>
-		<Unit filename="D:/C++Project/CSAPP/chapter_two/demo1.c">
+		<Unit filename="E:/myself/C-_Project/CSAPP/chapter_three/Best.h">
+			<Option target="chapter_demo1"/>
+		</Unit>
+		<Unit filename="E:/myself/C-_Project/CSAPP/chapter_three/Log.cpp">
+			<Option target="chapter_demo1"/>
+		</Unit>
+		<Unit filename="E:/myself/C-_Project/CSAPP/chapter_three/Log.h">
+			<Option target="chapter_demo1"/>
+		</Unit>
+		<Unit filename="E:/myself/C-_Project/CSAPP/chapter_three/Person.cpp">
+			<Option target="chapter_demo1"/>
+		</Unit>
+		<Unit filename="E:/myself/C-_Project/CSAPP/chapter_three/Person.h">
+			<Option target="chapter_demo1"/>
+		</Unit>
+		<Unit filename="E:/myself/C-_Project/CSAPP/chapter_three/Student.cpp">
+			<Option target="chapter_demo1"/>
+		</Unit>
+		<Unit filename="E:/myself/C-_Project/CSAPP/chapter_three/Student.h">
+			<Option target="chapter_demo1"/>
+		</Unit>
+		<Unit filename="E:/myself/C-_Project/CSAPP/chapter_three/demo1.cpp">
+			<Option target="chapter_demo1"/>
+		</Unit>
+		<Unit filename="E:/myself/C-_Project/CSAPP/chapter_two/demo1.c">
 			<Option target="demo1"/>
 		</Unit>
-		<Unit filename="D:/C++Project/CSAPP/chapter_two/demo2.c">
+		<Unit filename="E:/myself/C-_Project/CSAPP/chapter_two/demo2.c">
 			<Option target="demo2"/>
 		</Unit>
-		<Unit filename="D:/C++Project/main.cpp">
+		<Unit filename="E:/myself/C-_Project/LeetCode/AssignCookies_Easy.cpp">
+			<Option target="LeetCode_Main"/>
+		</Unit>
+		<Unit filename="E:/myself/C-_Project/LeetCode/AssignCookies_Easy.h">
+			<Option target="LeetCode_Main"/>
+		</Unit>
+		<Unit filename="E:/myself/C-_Project/LeetCode/MainPro.cpp">
+			<Option target="LeetCode_Main"/>
+		</Unit>
+		<Unit filename="E:/myself/C-_Project/LeetCode/TestSample.cpp">
+			<Option target="LeetCode_Main"/>
+		</Unit>
+		<Unit filename="E:/myself/C-_Project/LeetCode/TestSample.h">
+			<Option target="LeetCode_Main"/>
+		</Unit>
+		<Unit filename="E:/myself/C-_Project/LeetCode/TwoSum.cpp">
+			<Option target="LeetCode_Main"/>
+		</Unit>
+		<Unit filename="E:/myself/C-_Project/LeetCode/TwoSum.h">
+			<Option target="LeetCode_Main"/>
+		</Unit>
+		<Unit filename="E:/myself/C-_Project/main.cpp">
 			<Option target="C__Project"/>
 		</Unit>
-		<Unit filename="D:/C++Project/CMakeLists.txt">
+		<Unit filename="E:/myself/C-_Project/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
