@@ -2,9 +2,6 @@
 // Created by k'k'k on 2024/10/16.
 //
 
-
-
-
 #include <vector>
 #include <iostream>
 #include "TwoSum.h"
