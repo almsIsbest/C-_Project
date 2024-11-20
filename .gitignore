@@ -23,6 +23,6 @@
 *.suo
 .idea/
 *.code-workspace
-
+.vscode/
 cmake-build-debug/
 cmake-build-debug*/

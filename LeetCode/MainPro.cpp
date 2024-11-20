@@ -53,6 +53,15 @@ struct TaskStruct {
 }
 
 
+#define __va_rounded_size(TYPE)  \
+  (((sizeof (TYPE) + sizeof (int) - 1) / sizeof (int)) * sizeof (int))
+
+typedef char* va_list;
+
+#define va_arg(AP, TYPE)						\
+ (AP += __va_rounded_size (TYPE),					\
+  *((TYPE *) (AP - __va_rounded_size (TYPE))))
+
 int main() {
 
 //    test1();
@@ -89,4 +98,11 @@ int main() {
 
     printf("a , %p\n", a);
     printf("a , %p\n", (a + 1));
+
+
+    ((sizeof (int ) + sizeof (int) - 1) / sizeof (int)) * sizeof (int);
+    va_list h;
+    va_arg(h, int);
+
+    std::cout << __va_rounded_size(int);
 }
