@@ -27,7 +27,11 @@ void inplace_swap(int *x, int *y);
 
 void reserve_array(int a[], int cnt);
 
-
+union Nick{
+    double d;
+    int i;
+    char c;
+};
 
 int main() {
 //    float a[] = {1.0, 2.0, 3.0, 4.0, 5.0};
@@ -95,12 +99,16 @@ int main() {
 
     /* 2e3 输出:2000 */
     printf("%d\n", CONS(2,3));
+    union Nick nick;
+    nick.c = 'a';
+    nick.i = 1;
+    printf("nick.c = %c\n",nick.c);
+    printf("nick.i = %d\n",nick.i);
+    printf("nick.d = %f\n",nick.d);
+    printf("nick size = %d\n",sizeof (nick));
     return 0;
 
 
-
-
-    return 0;
 }
 
 /**无符号和有符号数的隐式运算**/
